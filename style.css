@@ -28,6 +28,7 @@ header {
 	text-align: center;
 	margin: 20px 0;
 	width: 600px;
+	font-size: 20px;
 }
 .primary-button {
 	padding: 20px;
@@ -54,34 +55,42 @@ header {
 	text-align: center;
 	margin: 20px 0;
 	width: 600px;
+	color:#616161;
+	font-size: 25px;
 }
 .section-title{
     font-size: 40px;
 }
 
 .box-ammount{
-    padding: 20px 10px; 
+    padding: 20px 30px; 
     border-radius: 5px;
     column-gap: 10px;
+	font-size: 25px;
     margin: 5px;
     display: flex;
+	color: #616161;
     justify-content: center;
     align-items: center;
 }
 
 .box-ammount-2{
-    padding: 20px 10px;
-    border: #ff5959;
+    padding: 20px 30px;
+    border: 2px hsl(0, 100%, 67%) solid;
     border-radius: 5px;
     background-color:#ff59591f;
     display: flex;
     justify-content: center;
     align-items: center;
+	color: #ff5959;
+	font-size: 25px;
   
 }
 
 .footer-title{
-    margin: 5px 0;
+    margin: 15px 0;
+	color: #616161;
+	font-size: medium;
 }
 
 hr{
@@ -90,3 +99,48 @@ hr{
     margin: 20px 0;
 }
 
+/* plan  section css  */
+.plan{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+.section-desc{
+	text-align: center;
+	margin: 20px 0;
+	width: 600px;
+	color:#616161;
+	font-size: 25px;
+}
+.plan-desc{
+	text-align: center;
+	margin: 20px 0;
+	color:#616161;
+	font-size: 25px;
+}
+.plan-container{
+	background-color: rgb(191, 185, 185);
+	padding: 30px 10px;
+
+}
+
+.plan-items{
+	display: flex;
+	justify-content:space-around;
+	gap: 10px;
+}
+.plan-title{
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+
+.family{
+	background-color: rgb(255, 159, 159);
+}
+
+.education{
+	background-color: rgb(255, 237, 120);
+}
