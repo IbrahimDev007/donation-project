@@ -1,6 +1,9 @@
 * {
 	margin: 0;
 }
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;500&&display=swap');
+
 section {
 	margin: 0px 100px 100px 100px;
 }
@@ -51,17 +54,17 @@ header {
 	display: flex;
 	justify-content: space-around;
 }
-.today-desc {
+.today-desc,.update-desc {
 	text-align: center;
 	margin: 20px 0;
 	width: 600px;
 	color: #616161;
 	font-size: 25px;
 }
-.section-title,.contant-title {
+.section-title,.contant-title ,.update-title{
 	font-size: 40px;
 }
-.contant-title{
+.contant-title,.update-title{
 	margin-bottom: 20px;
 }
 .box-ammount {
@@ -172,4 +175,56 @@ hr {
 }
 .top{
 	margin-top: 20px;
+}
+/* update section  */
+
+.update{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.subscribe-area{
+	display: flex;
+	margin: 40px 60px;
+	background-color: rgb(252, 244, 196);
+	padding: 80px;
+	justify-content: center;
+	align-items: center;
+}
+input,.subscribe{
+	height: 60px;
+	margin: 0;
+	border: 0;
+
+}
+input{
+	width: 400px;
+	border-radius: 5px;
+	background-color: rgb(184, 184, 184);
+	padding-left: 10px;
+}
+.subscribe{
+	background-color:#ff5959;
+	padding: 0 20px;
+	display: flex;
+	justify-content: center;align-items: center;
+	border-radius: 5px;
+	color: white;
+}
+footer{
+	 background: #0B0D17;
+	display: flex;
+	color:aliceblue;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 30px 0;
+}
+.f-title{
+font-size: 36px;
+color: #ff5959;
+font-family: Lobster;
+
 }
